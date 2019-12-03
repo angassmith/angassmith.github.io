@@ -1,0 +1,101 @@
+@font-face {
+	font-family: 'Visby Round CF';
+	src: url('fonts/VisbyRoundCF-DemiBold.eot');
+	src: url('fonts/VisbyRoundCF-DemiBold.woff2');
+    src: url('fonts/VisbyRoundCF-DemiBold.woff');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Visby Round CF';
+	src: url('fonts/VisbyRoundCF-ExtraBold.eot');
+	src: url('fonts/VisbyRoundCF-ExtraBold.woff2');
+    src: url('fonts/VisbyRoundCF-ExtraBold.woff');
+	font-weight: bold;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.navbar {
+	background-color: rgba(255, 255, 255, 0.34);
+	color: white;
+	font-size: 20px;
+	position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar button {
+	float: right;
+	background-color: transparent;
+	border: 3px solid white;
+	color: white;
+	border-radius: 30px;
+	text-decoration: none;
+	margin: 10px;
+	padding: 10px;
+}
+
+body {
+	background: linear-gradient(322deg, #da9d4e, #87ffa7, #3da3b3, #5c7bde, #ff64a0, #ce4141);
+	background-size: 1200% 1200%;
+	font-family: 'Visby Round CF', sans-serif;
+	-webkit-animation: AnimationName 17s ease infinite;
+	-moz-animation: AnimationName 17s ease infinite;
+	animation: AnimationName 17s ease infinite;
+}
+
+.bio {
+	width: 50%;
+	padding: 40pt;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 16pt;
+	letter-spacing: 0.5pt;
+	color: white;
+	font-weight: bold;
+	border-radius: 50pt;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 5px white;
+}
+
+.bio a {
+	display: inline-block;
+	padding-top: 5pt;
+	text-decoration:none;
+	color: #8C3BFF;
+	transition: 0.2s color ease-in;
+	font-weight: normal;
+}
+
+.bio a:hover {
+	color: #63DCFF;
+	transition: 0.2s color ease-in;
+}
+
+.navbox img {
+	width: 50pt;
+	padding: 2pt;
+	margin-top: 18pt;
+	margin-left: 2pt;
+	transition: transform 0.1s ease-in;
+}
+
+.navbox img:hover {
+	transition: transform 0.1s ease-in;
+	transform: scale(1.1, 1.1);
+}
