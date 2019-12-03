@@ -36,6 +36,7 @@
 	font-size: 20px;
 	position: -webkit-sticky;
   position: sticky;
+	top: 0; /* required */
 }
 
 .navbar h1 {
@@ -92,12 +93,14 @@ body {
 	font-weight: normal;
 	-webkit-text-stroke: 1px #8C3BFF;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 26px;
 }
 
 .bio a:hover {
-	color: #63DCFF;
+	color: #a9fdfe;
 	transition: 0.2s color ease-in;
+	-webkit-text-stroke: 0px #7ffcfe;
+
 }
 
 .navbox img {
@@ -156,15 +159,18 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 15t0px;
+	margin-top: 15px;
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
 }
 #category {
 	padding: 100px;
 	color: white;
-	background: black;
+	background: white;
 	border-radius: 50px;
 	border: none;
 	width: 100%;
-	background-image: url(/images/PlantAR_icon.png);
+	background-image: url(./images/PlantAR_icon.png);
 	object-fit: fill;
 }
