@@ -70,7 +70,8 @@ body {
 .bio {
 	width: 50%;
 	padding: 40pt;
-	margin: 50px;
+	margin-top: 150px;
+	margin-bottom: 150px;
 	text-align: center;
 	font-size: 16pt;
 	letter-spacing: 0.5pt;
@@ -86,9 +87,12 @@ body {
 	display: inline-block;
 	padding-top: 5pt;
 	text-decoration:none;
-	color: #8C3BFF;
+	color: white;
 	transition: 0.2s color ease-in;
 	font-weight: normal;
+	-webkit-text-stroke: 1px #8C3BFF;
+	font-weight: bold;
+	font-size: 24px;
 }
 
 .bio a:hover {
@@ -119,6 +123,7 @@ body {
 	width: 70%;
 	border-radius: 50px;
 	color: white;
+	font-size: 18px;
 }
 
 .resume{
@@ -126,6 +131,7 @@ body {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 100px;
 }
 
 .resume button {
@@ -136,4 +142,25 @@ body {
 	font-size: 20px;
 	padding: 20px;
 	color: white;
+}
+
+.parenttools {
+	column-count: 2;
+	column-gap: 40px;
+}
+
+.categories {
+	column-count: 3;
+	column-gap: 40px;
+	width: 70%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15t0px;
+}
+#category {
+	padding: 100px;
+	color: white;
+	background: black;
+	border-radius: 50px;
 }
