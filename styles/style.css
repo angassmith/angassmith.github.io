@@ -151,8 +151,8 @@ body {
 
 .categories {
 	column-count: 3;
-	column-gap: 40px;
-	width: 70%;
+	column-gap: 3%;
+	width: 60%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -163,4 +163,8 @@ body {
 	color: white;
 	background: black;
 	border-radius: 50px;
+	border: none;
+	width: 100%;
+	background-image: url(/images/PlantAR_icon.png);
+	object-fit: fill;
 }
