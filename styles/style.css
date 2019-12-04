@@ -31,12 +31,22 @@
 }
 
 .navbar {
-	background-color: rgba(255, 255, 255, 0.34);
+	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
 	font-size: 20px;
 	position: -webkit-sticky;
   position: sticky;
 	top: 0; /* required */
+	box-shadow: 0px 7px 15px -1px rgba(0, 0, 0, 0.2);
+}
+.navbar button:hover{
+
+	transform: scale(1.1) skewy(-1deg);
+}
+
+.navbar a:hover{
+	text-decoration: none;
+	color: white;
 }
 
 .navbar h1 {
@@ -45,6 +55,7 @@
 }
 
 .navbar button {
+	transition: all .2s ease-in-out;
 	float: right;
 	background-color: transparent;
 	border: 3px solid white;
