@@ -179,6 +179,7 @@ body {
 	color: white;
 	font-size: 24px;
 	font-weight: lighter;
+	overflow: hidden;
 }
 
 #category {
@@ -188,6 +189,21 @@ body {
 	border-radius: 50px;
 	border: none;
 	width: 100%;
-	background-image: url(./images/PlantAR_icon.png);
+	background-image: url(../images/PlantAR_icon.png);
 	object-fit: fill;
+	box-shadow:2px 8px 8px rgba(0, 0, 0, 0.30);
+
 }
+/*
+.graphic:hover {
+	transform: rotate(2deg);
+}
+/*
+.ux {
+	transform: skewY(1.4deg);
+}
+
+.character {
+	transform: skewY(-1deg);
+}
+*/
