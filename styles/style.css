@@ -40,7 +40,6 @@
 	box-shadow: 0px 7px 15px -1px rgba(0, 0, 0, 0.2);
 }
 .navbar button:hover{
-
 	transform: scale(1.1) skewy(-1deg);
 }
 
@@ -123,7 +122,6 @@ body {
 }
 
 .navbox img:hover {
-	transition: transform 0.1s ease-in;
 	transform: scale(1.1, 1.1);
 }
 .toolkit {
@@ -150,17 +148,21 @@ body {
 
 .resume {
 	padding: 20px;
-
 	background: transparent;
 	border: solid 3px white;
 	border-radius: 30px;
 	width: 20%;
 	font-size: 20px;
 	color: white;
+	transition: all 0.1s ease-in;
+	display: inline-block;
 }
 
 .resume:hover {
 	text-decoration: none;
+	color: white;
+	transform: scale(1.1, 1.1);
+	background-color: rgba(0,0,0,0.5);
 }
 
 .parenttools {
