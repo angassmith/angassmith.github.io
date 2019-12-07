@@ -228,10 +228,20 @@ body {
 }
 
 .one{
-transform: rotate(1deg);
+	transition: all .2s ease;
+	transform: rotate(1deg);
 }
 .two{
-transform: rotate(-1deg);
+	transition: all .2s ease;
+	transform: rotate(-1deg);
+}
+.one:hover{
+	transform: rotate(0deg);
+	transform: scale(1.02,1.02);
+}
+.two:hover{
+	transform: rotate(0deg);
+	transform: scale(1.02,1.02);
 }
 /*
 .graphic:hover {
