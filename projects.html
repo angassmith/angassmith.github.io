@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content="UX,Designer,Portfolio,Angas,Smith">
+		<meta name="author" content="Angas Smith">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<meta name="description" content="I&#39;m Angas Smith! I'm a User Experience Designer. I like to work on games/web/mobile.">
+		<meta property="og:image" content="/images/thumb.jpg">
+		<link rel="icon" type="image/jpg" href="">
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- CSS animation library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+		<!-- Icon library -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- My stylesheet -->
+		<link rel="stylesheet" type="text/css" href="./styles/style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.7.8/angular.min.js"></script>
+		<!-- Scripts -->
+		<script src="scripts/app.js"></script>
+
+		<title>Angas Smith</title>
+	</head>
+
+	<body>
+
+		<div class="navbar">
+				<h1>	<a href="" ng-click="setNews()"ng-class="newsactive" >ANGAS SMITH<br> <h4>user experience design</h4></a></h1>
+				<span class="buttons">
+					<button id="Graphic" ng-click="setAbout()" ng-class="aboutactive" onclick="window.location.href = './contact.html';" > contact</button>
+					<button id="UI/UX" ng-click="setFAQ()" ng-class="faqactive" onclick="window.location.href = './projects.html';" > projects</button>
+					<button id="Character" ng-click="setNews()" ng-class="newsactive" onclick="window.location.href = './index.html';" > home</button>
+				</span>
+		</div>
+
+
+		<div class="categories">
+			<button id="category" id="one" class="projects one"> <div class="overlay" > Service One </div> </button>
+
+      <button id="category" id="two" class="projects two"> <div class="overlay" > Knowious </div> </button>
+
+      <button id="category" class="projects one"> <div class="overlay"> Experience </div> </button>
+
+      <button id="category" class="projects two"> <div class="overlay"> Escape the Probe </div> </button>
+
+      <button id="category" class="projects one"> <div class="overlay"> SKIBI </div> </button>
+
+      <button id="category" class="projects two"> <div class="overlay"> Misc </div> </button>
+
+
+
+
+
+		</div>
+	</body>
+
+</html>
