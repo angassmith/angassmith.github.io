@@ -125,6 +125,11 @@ body {
 
 }
 
+	#av {
+    height: 112px;
+    border-radius: 100%;
+}
+
 .navbox img {
 	width: 50pt;
 	padding: 2pt;
