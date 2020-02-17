@@ -119,9 +119,9 @@ body {
 }
 
 .bio a:hover {
-	color: #a9fdfe;
+	color: transparent;
 	transition: 0.2s color ease-in;
-	-webkit-text-stroke: 0px #7ffcfe;
+	-webkit-text-stroke: 1px white;
 
 }
 
@@ -190,7 +190,7 @@ body {
 .categories {
 /*	column-count: 3;
 	column-gap: 3%; */
-	width: 60%;
+	width: 30%;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -217,18 +217,19 @@ body {
 .overlay {
 	transition: all .4s ease;
 	font-size: 36px;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.5);
 	width: 100%;
 	height: 100%;
 	border-radius: 50px;
 	padding: 5%;
 	letter-spacing: 5px;
+	border: solid 3px transparent;
+
 
 }
 
 #category:hover .overlay{
 	background-color: rgba(0,0,0,0.5);
-	font-size: 38px;
 	border: solid 3px white;
 }
 
